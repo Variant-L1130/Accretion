@@ -111,7 +111,7 @@ On GitHub: Settings → Pages → Deploy from a branch → `main` / `(root)`. Th
 
 ## Credits
 
-Designed by **VariantL1130**. The code was written with help from Claude, an AI assistant made by Anthropic, based on my game design and requirements. All names, visuals and code are original.
+Designed by **Atharv**. The code was written with help from Claude, an AI assistant made by Anthropic, based on my game design and requirements. All names, visuals and code are original.
 
 ## License
 
