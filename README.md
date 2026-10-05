@@ -34,6 +34,27 @@ Settings include sensitivity, sound volume, screen shake, zoom and a visual-effe
 
 ---
 
+## Goal and progression
+
+**The goal:** evolve through all 22 stages to become a **Cosmic Giant**, and beat your best survival time.
+
+Evolution depends on **mass only**. There are no timers or tasks. Each stage needs a larger mass target, spaced so a player spends roughly 1.5 to 2 minutes in each stage.
+
+Eating objects quickly builds a **combo** that gives up to 60% bonus mass. The HUD shows your best survival time, and a banner appears when you beat it.
+
+### Who can eat whom
+
+Every object roaming space is one of the stages below.
+- **A lower stage than yours** is food. You swallow it. Smaller bodies first circle you, then spiral in.
+- **A higher stage than yours** is a threat, marked with a red ring and a name label. Touching it ends the run, and the death screen says what killed you (for example "Killed by: Neutron Star" or "A giant asteroid").
+- **The same stage as yours** merges with you. You first orbit each other, then collapse into one larger body, and a shockwave hurls nearby matter away.
+- **Giant asteroids** are early threats. Larger bodies carry planets and debris that orbit them.
+- **Bigger black holes engulf smaller ones**, including rivals.
+- **Cosmic Giants:** once you are one, larger Cosmic Giants appear to end your run.
+- **Supernovae and hypernovae** appear as rare blasts that push things away.
+
+---
+
 ## Stages
 
 Mass is shown in solar masses (M☉, the mass of the Sun). You start at 0.01 M☉. All thresholds and powers are game values, not real astrophysics.
@@ -41,27 +62,27 @@ Mass is shown in solar masses (M☉, the mass of the Sun). You start at 0.01 M�
 | # | Stage | Reached at | Power |
 |---|---|---|---|
 | 1 | Stellar Nebula | start | Wide diffuse pull, slow steering |
-| 2 | Protostar | 0.04 M☉ | A small hot core |
-| 3 | Pre-Main-Sequence Star | 0.12 M☉ | Stronger pull as you contract |
-| 4 | Brown Dwarf | 0.3 M☉ | Compact and dim |
-| 5 | Red Dwarf | 0.7 M☉ | Quick dashes |
-| 6 | Yellow Dwarf | 1.6 M☉ | Absorbs matter more efficiently |
+| 2 | Protostar | 0.03 M☉ | A small hot core |
+| 3 | Pre-Main-Sequence Star | 0.08 M☉ | Stronger pull as you contract |
+| 4 | Brown Dwarf | 0.2 M☉ | Compact and dim |
+| 5 | Red Dwarf | 0.55 M☉ | Quick dashes |
+| 6 | Yellow Dwarf | 1.5 M☉ | Absorbs matter more efficiently |
 | 7 | Blue Main-Sequence Star | 4 M☉ | Stellar wind pushes big hazards away |
-| 8 | Red Giant | 9 M☉ | Large reach and pull, sluggish |
-| 9 | Red Supergiant | 20 M☉ | Enormous reach, slow and easy to hit |
-| 10 | Blue Supergiant | 45 M☉ | Fast, with a strong stellar wind |
-| 11 | Luminous Blue Variable | 100 M☉ | Erupting; a 25-second fuel timer starts |
-| 12 | Planetary Nebula | timer ends | Sheds its shell; you are protected |
-| 13 | Supernova | after 5 s | Blast clears and hurls away nearby matter; protected |
-| 14 | Hypernova | after 4 s | An even bigger blast; protected |
-| 15 | White Dwarf | after 4 s | Tiny, dense, stronger gravity |
-| 16 | Black Dwarf (theoretical) | 200 M☉ | Stealth: rivals struggle to track you |
-| 17 | Neutron Star | 400 M☉ | Pulsar beams vaporize small objects |
-| 18 | Stellar Black Hole | 800 M☉ | Event horizon, accretion disk, the Apex appears |
-| 19 | Supermassive Black Hole | 3,000 M☉ | Larger disk and reach |
-| 20 | Quasar | 20,000 M☉ | Bright disk and jets (F / JET) |
-| 21 | Supermassive Quasar | 200,000 M☉ | Rival giants roam |
-| 22 | Cosmic Giant | 2,000,000 M☉ | The camera zooms out further; keep playing |
+| 8 | Red Giant | 11 M☉ | Large reach and pull, sluggish |
+| 9 | Red Supergiant | 30 M☉ | Enormous reach, slow and easy to hit |
+| 10 | Blue Supergiant | 80 M☉ | Fast, with a strong stellar wind |
+| 11 | Luminous Blue Variable | 220 M☉ | Erupting and unstable |
+| 12 | Planetary Nebula | 600 M☉ | Sheds its shell for about 6 s; you are protected |
+| 13 | Supernova | after the nebula | About 10 s; repeated shockwaves hurl nearby matter away; protected |
+| 14 | Hypernova | after the supernova | About 12 s; stronger shockwaves; protected |
+| 15 | White Dwarf | after the hypernova | Tiny, dense, stronger gravity |
+| 16 | Black Dwarf (theoretical) | 1,600 M☉ | Stealth: rivals struggle to track you |
+| 17 | Neutron Star | 4,400 M☉ | Pulsar beams vaporize small objects |
+| 18 | Stellar Black Hole | 12,000 M☉ | Event horizon, accretion disk, the Apex appears |
+| 19 | Supermassive Black Hole | 33,000 M☉ | Larger disk and reach |
+| 20 | Quasar | 90,000 M☉ | Bright disk and jets (F / JET) |
+| 21 | Supermassive Quasar | 240,000 M☉ | Rival giants roam |
+| 22 | Cosmic Giant | 650,000 M☉ | The camera zooms out further; keep playing |
 
 Stages only go up. The death sequence (planetary nebula, supernova, hypernova) is a game simplification: real stars follow only one of these paths depending on their mass.
 
@@ -127,4 +148,4 @@ On GitHub: Settings → Pages → Deploy from a branch → `main` / `(root)`. Th
 
 ## Credits
 
-Designed by **Atharv**. The code was written with help from Claude, an AI assistant made by Anthropic, based on my game design and requirements. All names, visuals and code are original.
+Designed by **Atharv**.
